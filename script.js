@@ -13,32 +13,27 @@ forward(50);
 }
 
 
-function triangle (){ 
-    forward(75);
+function triangle (length){ 
+    forward(length);
     right(120);
-    forward(75);
+    forward(length);
     right(120);
-    forward(75);
+    forward(length);
     right(120);
 }
 
-function rectangle(){
-    forward(80);
+function rectangle(pixels){
+    forward(pixels);
     right(90);
-    forward(80);
+    forward(pixels);
     right(90);
-    forward(80);
+    forward(pixels);
     right(90);
 }
-rectangle();
-function house();
-forward(50);
-right(60);
-forward(50);
-right(60);
-}
-house();
-//triangle();
+rectangle(80);
+rectangle(100);
+triangle(75);
+triangle(150);
 // Type your function call below
 //square();
 
